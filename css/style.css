@@ -12,10 +12,15 @@
 
 /* set the default color, font-size, and line height */
 html {
-  color: #333;
-  font-size: 1em;
-  line-height: 1.4;
+background-color: #7A3E48;
+color: #EECD86;
+font-size: 1em;
+line-height: 1.4;
 }
+p {color: #E18942;}
+
+
+
 
 /* make images and embedded media fluid */
 img,
@@ -24,33 +29,47 @@ object {
 }
 
 /* type hierarchy- change for your project */
-h1 {
-  font-size: 3em; /* 48px */
-}
 
-h2 {
-  font-size: 2.25em /* 36px */
-}
-
-h3 {
-  font-size: 1.75em /* 28px */
-}
-
-h4 {
-  font-size: 1.125em /*18px */
-}
 
 /* =======================================
     author styles
     place your custom styles below here
 ========================================== */
 
+.pic {display: inline;
+    float: left;
+    padding: 15px;
+    border: 10px solid #3D3242;
+    margin: 10px;
+width:300px;
+    height:600px}
 
-
-
-
-
-
+   .boxed {
+       display:inline;
+       position:relative;
+       float: left;
+    width: 450px;
+    padding: 15px;
+    border: 15px solid #3D3242;
+    margin: 25px;
+}
+.nextboxed {
+    display:inline;
+position: relative;
+float:right;
+width: 450px;
+    padding: 15px;
+    border: 15px solid #3D3242;
+    margin: 25px;
+}
+.boxthree {
+display:inline;
+position: relative;
+float:right;
+width: 450px;
+    padding: 15px;
+    border: 15px solid #3D3242;
+    margin: 25px; }
 
 
 
