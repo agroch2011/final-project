@@ -39,42 +39,96 @@ object {
 .pic {display: inline;
     float: left;
     padding: 15px;
-    border: 10px solid #3D3242;
-    margin: 10px;
-width:300px;
-    height:600px}
+    border: 5px solid #3D3242;
+    margin: 6px;
+width:200px;
+    height:610px}
 
    .boxed {
        display:inline;
        position:relative;
        float: left;
-    width: 450px;
+    width: 500px;
     padding: 15px;
-    border: 15px solid #3D3242;
-    margin: 25px;
+    border: 5px solid #3D3242;
+    margin: 6px;
 }
-.nextboxed {
-    display:inline;
-position: relative;
-float:right;
-width: 450px;
-    padding: 15px;
-    border: 15px solid #3D3242;
-    margin: 25px;
-}
+
 .boxthree {
 display:inline;
 position: relative;
-float:right;
-width: 450px;
+float:left;
+width: 400px;
     padding: 15px;
-    border: 15px solid #3D3242;
-    margin: 25px; }
+    border: 5px solid #3D3242;
+    margin: 6px; }
 
 
+.exercise {
+    display:inline;
+    position: relative;
+float:left;
+width: 575px;
+    padding: 15px;
+    border: 5px solid #3D3242;
+    margin: 6px; }
+    
+.steals {
+display:inline;
+    position: relative;
+float: left;
+width: 500px;
+    padding: 15px;
+    border: 5px solid #3D3242;
+    margin: 10px; }
+    
+
+.clothes {
+    
+float:left;
+width: 575px;
+    position: relative;
+    padding: 15px;
+    border: 5px solid #3D3242;
+    margin: 6px; }
+
+.ImageBorder
+{
+    border-width: 1px;
+    border-color: Black;
+   height: 200px;
+}
 
 
+.theleast
+{
+    float: left;
+    width: 500px;
+    position: relative;
+    padding: 15px;
+    border: 5px solid #3D3242;
+    margin: 6px; }
+}
 
+
+    
+.middle {
+    float:left;
+width: 550px;
+    position: relative;
+    padding: 15px;
+    border: 5px solid #3D3242;
+    margin: 6px; }
+
+.end
+{
+float:left;
+width: 550px;
+    position: relative;
+    padding: 15px;
+    border: 5px solid #3D3242;
+    margin: 6px; }
+}
 
 
 
