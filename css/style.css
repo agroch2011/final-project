@@ -1,32 +1,38 @@
-/* =======================================
-    style.css
-    use this file for your custom styles
-========================================== */
 
-/* use a box model that makes sense */
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
 /* set the default color, font-size, and line height */
-html {
-background-color: #7A3E48;
-color: #EECD86;
+body {
+background-image: url('symphony/symphony.png');
+color: #FF3399;
 font-size: 1em;
 line-height: 1.4;
 }
-p {color: #E18942;}
+p {color: #E18942;
+margin: 0; }
 
+h1 {
+     font-family: 'Pacifico', sans-serif; 
+text-align: center;}
 
-
-
-/* make images and embedded media fluid */
-img,
-object {
-  max-width: 100%;
+h2 {
+font-family: 'Pacifico', sans-serif; 
+    text-align: center;
 }
+
+
+.first {text-align: center;}
+h3 {text-align: center;}
+
+.nextup {text-align: center;
+    color: #E68A2E;
+
+}
+
+.img { text-align: center;}
+
+
+
+
 
 /* type hierarchy- change for your project */
 
@@ -36,42 +42,66 @@ object {
     place your custom styles below here
 ========================================== */
 
-.pic {display: inline;
+.container {
+     width: 1060px;
+    height: 700px;
+    padding: 1px;
+    border: 5px solid purple;
+    background-color: beige;
+  margin:4px 50px 10px;}
+
+.words {
+    word-spacing: inherit;
+}
+
+img {width:250px;
+    height:200px;
+    padding:2px; }
+
+
+.special {display: inline;
     float: left;
-    padding: 15px;
+    padding: 18px;
     border: 5px solid #3D3242;
     margin: 6px;
-width:200px;
-    height:610px}
+width:240px;
+background-color: beige;
+}
+    
+    
 
    .boxed {
        display:inline;
        position:relative;
        float: left;
-    width: 500px;
+    width: 390px;
     padding: 15px;
     border: 5px solid #3D3242;
     margin: 6px;
+       background-color: beige;
 }
 
 .boxthree {
 display:inline;
 position: relative;
 float:left;
-width: 400px;
+width: 305px;
     padding: 15px;
     border: 5px solid #3D3242;
-    margin: 6px; }
+    margin: 20px; 
+background-color: beige;}
 
 
 .exercise {
     display:inline;
     position: relative;
 float:left;
-width: 575px;
+width: 500px;
+    height: 600px;
     padding: 15px;
     border: 5px solid #3D3242;
-    margin: 6px; }
+    margin: 10px; 
+background-color: beige;}
     
 .steals {
 display:inline;
@@ -80,24 +110,22 @@ float: left;
 width: 500px;
     padding: 15px;
     border: 5px solid #3D3242;
-    margin: 10px; }
+    margin: 10px; 
+background-color: beige;}
     
 
 .clothes {
     
-float:left;
-width: 575px;
+float:right;
+width: 515px;
+    height: 855px;
     position: relative;
     padding: 15px;
     border: 5px solid #3D3242;
-    margin: 6px; }
+    margin: 10px; 
+background-color: beige;}
 
-.ImageBorder
-{
-    border-width: 1px;
-    border-color: Black;
-   height: 200px;
-}
+
 
 
 .theleast
@@ -107,18 +135,28 @@ width: 575px;
     position: relative;
     padding: 15px;
     border: 5px solid #3D3242;
-    margin: 6px; }
-}
+    margin: 10px; 
+background-color: beige;}
+
+.now {
+float: left;
+    width: 500px;
+    
+    padding: 15px;
+    border: 5px solid #3D3242;
+    margin: 5px; 
+background-color: beige;}
 
 
     
 .middle {
     float:left;
-width: 550px;
+width: 300px;
     position: relative;
     padding: 15px;
     border: 5px solid #3D3242;
-    margin: 6px; }
+    margin: 6px; 
+background-color: beige;}
 
 .end
 {
@@ -127,8 +165,9 @@ width: 550px;
     position: relative;
     padding: 15px;
     border: 5px solid #3D3242;
-    margin: 6px; }
-}
+    margin: 6px; 
+background-color: beige;}
+
 
 
 
